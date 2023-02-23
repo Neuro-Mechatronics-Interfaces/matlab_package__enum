@@ -11,6 +11,11 @@ classdef GUIInteraction < int8
         CUT (2)
         COPY (3)
         PASTE (4)
+        WINDOW_CLOSED (5)
+        WINDOW_OPENED (6)
+        UPDATE_DATA (7)
+        UPDATE_GRAPHICS (8)
+        UPDATE_ALL (9)
     end
 end
 
