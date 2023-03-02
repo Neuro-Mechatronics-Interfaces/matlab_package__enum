@@ -7,6 +7,8 @@ classdef TaskOutcome < int32
     enumeration
         UNDEFINED (-1)
         UNSUCCESSFUL (0)
+        Error        (0)
         SUCCESSFUL (1)
+        Success    (1)
     end
 end
