@@ -5,6 +5,7 @@ classdef TaskOrientation < int32
     %   bits sent out to the TMSi/Plexon record.
     
     enumeration
+        UNDEFINED (-1)
         MID (0)  % "Normal" position with thumb most-dorsal and pinky vent
         PRO (1)  % "Palm-down" position with thumb pointing "in"
         SUP (2)  % "Sup guys" position with thumbs pointing "out"
