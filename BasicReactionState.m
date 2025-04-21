@@ -19,6 +19,8 @@ classdef BasicReactionState < int8
         WAIT_DEASSERTION_REACTION (2)
         HOLD_ASSERTION (3)
         DEBOUNCE (4)
+        START (5)
+        END (6)
     end
 end
 
