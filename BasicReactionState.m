@@ -12,12 +12,17 @@ classdef BasicReactionState < int8
     
     enumeration
         TIMEOUT (-3)
+        IDLE (-2)
         PRE_START (-2)
         PRE_TRIAL (-1)
         READY (0)
+        WAIT_ASSERTION_CUE (0)
         ASSERT (1)
+        WAIT_ASSERTION_REACTION (1)
         DEASSERT (2)
+        WAIT_DEASSERTION_REACTION (2)
         HOLD (3)
+        HOLD_ASSERTION (3)
         DEBOUNCE (4)
         START (5)
         END (6)
